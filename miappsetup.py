@@ -24,7 +24,7 @@ except OSError as e:
 	print('')
 
 print('Extraindo arquivos em "C:\\miapp\\"...')
-zf = ZipFile(os.path.dirname(sys.executable) + '/miapp-win32-x64.zip', 'r')
+zf = ZipFile(os.path.dirname(sys.executable) + '/miapp.zip', 'r')
 zf.extractall('C:\\\\')
 zf.close()
 
